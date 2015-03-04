@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>FSharpEnt.RabbitMq</id>
+    <version>0.1.60</version>
+    <authors>Colin Bull</authors>
+    <owners>Colin Bull</owners>
+    <licenseUrl>https://bitbucket.org/colinbul/fsharpent/raw/tip/License.txt</licenseUrl>
+    <projectUrl>https://bitbucket.org/colinbul/fsharpent</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>F# RabbitMq client wrapper</description>
+    <summary>F# RabbitMq client wrapper</summary>
+    <language>en-US</language>
+    <tags>fsharp enterprise rabbitmq</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="4.5.9" />
+      <dependency id="RabbitMQ.Client" version="2.8.6" />
+      <dependency id="FSharpEnt.Common" version="0.1.39" />
+    </dependencies>
+  </metadata>
+</package>
