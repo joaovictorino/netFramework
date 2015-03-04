@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>FSharpEnt.Common</id>
+    <version>0.1.60</version>
+    <authors>Colin Bull</authors>
+    <owners>Colin Bull</owners>
+    <licenseUrl>https://bitbucket.org/colinbul/fsharpent/raw/tip/License.txt</licenseUrl>
+    <projectUrl>https://bitbucket.org/colinbul/fsharpent</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Common F# extensions for the enterprise this now encompasses FSharpEnt.Json, FSharpEnt.Etl, FSharpEnt.Actors</description>
+    <summary>Common F# extensions for the enterprise this now encompasses FSharpEnt.Json, FSharpEnt.Etl, FSharpEnt.Actors</summary>
+    <language>en-US</language>
+    <tags>fsharp enterprise</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="4.5.9" />
+    </dependencies>
+  </metadata>
+</package>
