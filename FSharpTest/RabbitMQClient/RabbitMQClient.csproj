@@ -57,9 +57,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CSharpLibrary\CSharpLibrary.csproj">
-      <Project>{a784244c-aa4b-4e23-acd9-3fabc4c1ef35}</Project>
-      <Name>CSharpLibrary</Name>
+    <ProjectReference Include="..\RabbitMq\RabbitMQ.csproj">
+      <Project>{d2e3b47a-0d43-49a7-9bc2-d445d976ba48}</Project>
+      <Name>RabbitMQ</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

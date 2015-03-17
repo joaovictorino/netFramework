@@ -38,24 +38,8 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="FSharpEnt.Common">
-      <HintPath>..\packages\FSharpEnt.Common.0.1.60\lib\FSharpEnt.Common.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="FSharpEnt.RabbitMq">
-      <HintPath>..\packages\FSharpEnt.RabbitMq.0.1.60\lib\FSharpEnt.RabbitMq.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="mscorlib" />
     <Reference Include="FSharp.Core, Version=$(TargetFSharpCoreVersion), Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="RabbitMQ.Client">
-      <HintPath>..\packages\RabbitMQ.Client.2.8.7\lib\net30\RabbitMQ.Client.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -64,18 +48,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.fs" />
-    <None Include="App.config" />
-    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CSharpLibrary\CSharpLibrary.csproj">
       <Name>CSharpLibrary</Name>
       <Project>{a784244c-aa4b-4e23-acd9-3fabc4c1ef35}</Project>
-      <Private>True</Private>
-    </ProjectReference>
-    <ProjectReference Include="..\FSharpLibrary\FSharpLibrary.fsproj">
-      <Name>FSharpLibrary</Name>
-      <Project>{636f1e4f-8f9c-40bf-a735-3548261c4b84}</Project>
       <Private>True</Private>
     </ProjectReference>
   </ItemGroup>
