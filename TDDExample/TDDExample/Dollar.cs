@@ -9,6 +9,7 @@ namespace TDDExample
     {
         public Dollar(int amount, string currency) : base(amount, currency)
         {
+
         }
     }
 }
